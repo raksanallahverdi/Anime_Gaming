@@ -1,0 +1,283 @@
+.section2{
+   
+}
+.col-12{
+   
+ height: 200px;
+ display: flex;
+   background-position: center;
+   color: white;
+   font-size: 12px;
+   background-size: contain;
+   justify-content: space-between;
+   padding: 2px 5px;
+   h2{
+    padding: 15px 10px;
+    font-size: 17px !important;
+   }
+   div{
+    display: flex !important;
+    flex-direction: row !important;
+    height: fit-content !important;
+    h5{
+        background-color: rgb(61,61,61);
+        font-size: 13px;
+        color: white;
+        padding: 3px 15px;
+        border-radius: 5px;
+        display: flex;
+        gap: 5px;
+        i{
+            padding-top: 2px;
+        }
+    }
+   }
+}
+[class|="col"] {
+    color: white;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 9px;
+}
+[class^="col"] img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.col-4{
+    height:410px ;
+}
+.col-12 img{
+    object-fit: contain;
+    width: 100%;
+}
+[class*="box"] {
+    div {
+        background-repeat: no-repeat;
+        background-size: cover;
+      width: 100%;
+      height: 100%;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+      color: black !important;
+      h3{
+        background-color: rgb(229,53,55);
+        color: white;
+        width: fit-content;
+        font-size: 14px;
+        padding: 1px 12px;
+        border-radius: 5px;
+        font-weight: 300;
+      }
+      article{
+        display: flex;
+        font-size: 15px;
+        align-items: space-between;
+        color:black !important;
+        padding-left: 5px;
+        justify-content: space-between;
+       
+        h5{
+            gap: 5px;
+            display: flex;
+            background-color: rgb(61,61,61);
+            color: white;
+            padding: 3px 15px;
+            border-radius: 5px;
+            i{
+                padding-top: 2px;
+            }
+        }
+      }
+      
+      
+    }
+    
+    
+    p{
+        display: flex;
+        gap: 5px;
+        font-size: 10px;
+        padding: 6px 0;
+        span{
+            background-color: rgb(60,61,85);
+            padding: 1.5px 7px;
+            border-radius: 10px;
+
+        }
+    }
+    h2{
+        font-size: 18px;
+        padding: 8px 0;
+    }
+  }
+
+  [class*="item"]{
+    height: 130px;
+    width: 120px;
+    border-radius: 0;
+    img{
+      
+        width: 100%;
+        height: 100%;
+    }
+
+
+ }
+ .section2 div.content-wrapper{
+    display: flex !important;
+   font-size: 12px;
+   h2{
+    line-height: 28px;
+   }
+   p{
+    display: flex;
+    gap: 5px;
+    font-size: 10px;
+    padding: 6px 0;
+    span{
+        background-color: rgb(60,61,85);
+        padding: 1.5px 7px;
+        border-radius: 10px;
+
+    }
+}
+ }
+ .mini__film-wrapper{
+    column-gap: 15px;
+    flex-wrap: nowrap;
+    display: flex !important;
+    flex-direction: row !important;
+    h5{gap: 5px;
+    display: flex;
+i{
+    padding-top: 1px;
+}}
+ }
+
+ .section2 .item1{
+    background-image: url(../images/comment-1.jpg.webp);
+ }
+ .section2 .item2{
+    background-image: url(../images/comment-2.jpg.webp);
+ }
+ .section2 .item3{
+    background-image: url(../images/comment-3.jpg.webp);
+ }
+ .section2 .item4{
+    background-image: url(../images/comment-4.jpg.webp);
+ }
+
+.box1 div{
+    background-image: url(../images/trend-1.jpg);
+}
+.box2 div{
+    background-image: url(../images/trend-5.jpg);
+}
+.box3 div{
+    background-image: url(../images/trend-2.jpg);
+}
+.box4 {
+    background-image: url(../images/tv-3.jpg);
+}
+.box5{
+    background-image: url(../images/tv-2.jpg);
+}
+.box6{
+    background-image: url(../images/tv-1.jpg);
+}
+.box7{
+    background-image: url(../images/tv-4.jpg);
+}
+.box8{
+    background-image: url(../images/tv-5.jpg);
+}
+.box9 div{
+    background-image: url(../images/trend-6.jpg);
+}
+.box10 div{
+    background-image: url(../images/trend-3.jpg);
+}
+.box11 div{
+    background-image: url(../images/trend-4.jpg);
+}
+
+.title-wrapper{
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .date-wrapper{
+        display: flex;
+        color: white;
+        font-size: 14px;
+        color: rgb(142, 140, 140);
+        gap: 8px;
+        padding-right: 4px;
+    }
+}
+.title-wrapper h3{
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-right: 20px;
+   color: white;
+   
+}
+.film__title{
+    color: white;
+    border-left: 3.5px solid red;
+    padding-left: 10px;
+    text-transform: uppercase;
+  
+}
+[class$="films"] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 1200px) {
+    .row{
+        flex-wrap: wrap !important;
+    }
+    .col-8{
+        width: 90%;
+    }
+    .col-4{
+        width: 30%;
+    }
+    .title-wrapper{
+        width:95% ;
+    }
+ }
+ @media (max-width: 900px) {
+    .row{
+        flex-wrap: wrap !important;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .col-4{
+        width: 40%;
+    }
+    .title-wrapper{
+        width:82% ;
+    }
+ }
+ @media (max-width: 568px) {
+    .row{
+        flex-wrap: wrap !important;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .col-4{
+        width: 90%;
+    }
+    .title-wrapper{
+        width:89% ;
+    }
+ }

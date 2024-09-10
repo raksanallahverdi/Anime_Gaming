@@ -1,0 +1,91 @@
+.section1 .section1__image-wrapper{
+    justify-content: center;
+    padding: 0 30px;
+    flex-direction: column;
+    height: 80vh;
+    display: flex;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url("../images/hero-1.jpg (1).webp");
+    h5{
+        color:white;
+        padding: 20px 2px;
+        font-size: 16px;
+        font-family:'Times New Roman', Times, serif;
+        letter-spacing: 1px;
+
+    }
+    button{
+        width: 15%;
+        background-color: rgb(229,53,55);
+        border-style: none;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        margin-top: 20px;
+    }
+
+}
+.section1 .section1__image-wrapper h2{
+    color: white;
+    padding-top: 20px;
+    font-size: 38px;
+    width: 50%;
+}
+
+.section1 .section1__image-wrapper span{
+    margin-top: 30px;
+    background-color: white;
+    color: rgb(229,53,55);
+    padding: 4px;
+    width: fit-content;
+    
+    display: inline;
+}
+
+.section1{
+    padding: 40px 0;
+    height: 100vh;
+}
+.section1 .container{
+    height:80vh ;
+}
+
+@media (max-width: 992px) {
+   
+    .header_nav{display: none;}
+    .section1 .section1__image-wrapper{
+        justify-content: flex-end;
+        padding-bottom: 90px;
+        background-size: cover;
+        background-position: center;
+        button{
+            width: 20%;
+           
+        }
+        
+    }
+    .section1 .section1__image-wrapper h2{
+      
+        font-size: 30px;
+        width: 70%;
+    }
+ }
+ 
+ @media (max-width: 768px) {
+   
+    .section1 .section1__image-wrapper{
+        button{
+            width: 40%;
+           
+        }
+        
+    }
+    .section1 .section1__image-wrapper h2{
+       
+        font-size: 24px;
+        width: 100%;
+    }
+ 
+ }
+ 
