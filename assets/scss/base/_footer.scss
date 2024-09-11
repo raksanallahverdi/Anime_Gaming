@@ -1,0 +1,58 @@
+.footer {
+    background-color: #070720;
+    padding: 20px 0;
+    color: #fff;
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 22px;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        img {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    &__links {
+        a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #ff5656;
+            }
+        }
+    }
+
+    &__copyright {
+        p {
+            font-size: medium;
+            margin: 0;
+            color: #3d3d30;
+
+            span {
+                color: #ff5656;
+            }
+
+            a {
+                color: #1e90ff;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
